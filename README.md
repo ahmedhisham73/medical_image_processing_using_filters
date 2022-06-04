@@ -21,12 +21,22 @@ which are Guassian , Sobel and median operations
 
 
 
--Fourth the Application needs to be packed in order to be converted into Docker image for production , thanks to MONAI SDK for making this step easier 
+-Fourth the Application needs to be packed in order to be converted into Docker image for production , thanks to MONAI SDK for making this step easier. 
 
 
--Repository structure is as follows 
-1-filter adding to medicalimage -> main development code and the application file 
-2-input -> input images used to test the filters 
-3-output -> output results after filters operations 
-4-execution and packaging -> script to package the application into a container 
-5-application_Docker file -> Docker container that carries and includes application files for ready made usage 
+-Repository structure is as follows
+
+
+1-filter adding to medicalimage -> main development code and the application file.
+
+
+2-input -> input images used to test the filters.
+
+3-output -> output results after filters operations. 
+
+
+4-execution and packaging -> script to package the application into a container.
+
+
+
+5-application_Docker file -> Docker container that carries and includes application files for ready made usage.
